@@ -1,0 +1,44 @@
+body {
+    background-image: url("pookie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Hello-kitty {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 30px; 
+    padding: 20px;
+}
+
+.Hello-kitty h1 {
+    color: crimson;
+    font-size: 36px; 
+    font-family: "Elephant", sans-serif;
+}
+
+.Hello-kitty p {
+    color: black;
+    font-family: "Papyrus", sans-serif;
+    max-width: 70%; 
+}
+
+.Hello-kitty img {
+    max-width: 350px; 
+    height: auto; 
+}
+.Hatsune-Miku h1 {
+	color: cyan;
+	font-family: "Times New Roman", sans-serif;
+	max-width:70%;
+}
+.Hatsune-Miku p {
+     font-family:"Papyrus";
+     max-width: 70%;
+}
+.Hatsune-Miku img {
+	max-width: 350px;
+	height: auto;
+	float: right;
+	padding: 10px;
+}	
